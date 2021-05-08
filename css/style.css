@@ -1,0 +1,180 @@
+/*
+    font-family: 'Raleway', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+синій колір - color: #2196F3;
+основний колір - #212121;
+додатковий - #757575;
+адреса в футері - #FFFFFF
+ :root {
+        --
+}
+*/
+body {
+  font-family: "Roboto", sans-serif;
+  color: #757575;
+}
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* Navigation */
+.logo-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.logo-first-letters {
+  color: #2196f3;
+}
+.menu-item,
+.contacts-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14q;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #2196f3;
+}
+
+.tel-link:hover,
+.tel-link:focus {
+  color: #2196f3;
+}
+.mail-link:hover,
+.mail-link:focus {
+  color: #2196f3;
+}
+
+.contacts-item:hover {
+  color: #2196f3;
+}
+/* END NAVIGATION */
+.title-hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  /* text-transform: uppercase; */
+  /* color: #ffffff; */
+}
+
+/* BUTTON */
+.modal-btn {
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 87;
+  letter-spacing: 0.06em;
+
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: #ffffff;
+  color: #2196f3;
+}
+/* END BUTTON */
+
+/* ABOUT */
+.about-list-suptitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.about-list-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/* END ABOUT */
+
+/* Section WHAT WE DO */
+.section-suptitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+/* END Section WHAT WE DO */
+
+/* Setion Our Team */
+
+.ourteam-suptitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.ourteam-proffesion {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* End Section Our Team */
+
+/* footer */
+.footer-link-address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  /* color: rgba(255, 255, 255, 0.6); - поки немає фону */
+}
+.footer-link-mail,
+.footer-link-tel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+  /* color: rgba(255, 255, 255, 0.6); */
+}
+.footer-link-mail:hover,
+.footer-link-mail:focus,
+.footer-link-tel:hover,
+.footer-lik.tel:focus,
+.footer-link-address:hover,
+.footer-link-address:focus {
+  /* color: #ffffff; поки немає фону для перевірки жовтий */
+  color: yellow;
+}
+/* end footer */
+
+/* portfolio */
+.portfolio-suptitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+/* end portfolio */
