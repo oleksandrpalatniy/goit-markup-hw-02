@@ -16,6 +16,14 @@
   --accent-color: #2196f3;
   --main-color: #212121;
   --secondary-color: #757575;
+  --footers-bg-color: #2f303a;
+  --logo-color: #000000;
+  --footers-adress-color: rgba(255, 255, 255, 0.6);
+  --footers-active-color: #ffffff;
+  --btn-text-color: #ffffff;
+  --btn-bg-accent-color: #ffffff;
+  --hero-title-color: #ffffff;
+  --hero-bg-color: #2f303a;
 }
 body {
   font-family: var(--main-font);
@@ -36,7 +44,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--logo-color);
 }
 .logo-first-letters {
   color: var(--accent-color);
@@ -64,9 +72,16 @@ body {
 .contacts-link:hover {
   color: var(--accent-color);
 }
+.current {
+  color: var(--accent-color);
+}
 
 /* END NAVIGATION */
+.hero {
+  background-color: var(--hero-bg-color);
+}
 .title-hero {
+  color: var(--hero-title-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -81,14 +96,13 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--accent-color);
+  color: var(--btn-text-color);
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
-  background-color: #ffffff;
+  background-color: var(--btn-text-color);
   color: var(--accent-color);
 }
 /* END BUTTON */
@@ -128,7 +142,7 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-color);
 }
 .ourteam-proffesion {
   font-size: 16px;
@@ -140,18 +154,18 @@ body {
 
 /* footer */
 .footers {
-  background-color: #2f303a;
+  background-color: var(--footers-bg-color);
 }
 
 .footers .logo-link {
-  color: white;
+  color: var(--footers-active-color);
 }
 .footer-link-address {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footers-active-color);
 }
 .footer-link-mail,
 .footer-link-tel {
@@ -159,7 +173,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footers-adress-color);
 }
 .footer-link-mail:hover,
 .footer-link-mail:focus,
@@ -167,7 +181,7 @@ body {
 .footer-link-tel:focus,
 .footer-link-address:hover,
 .footer-link-address:focus {
-  color: #ffffff;
+  color: var(--footers-active-color);
 }
 /* end footer */
 
